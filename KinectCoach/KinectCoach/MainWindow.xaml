@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Menu" Height="1000" Width="1920"
+        ResizeMode="NoResize"
+        >
+    <Grid Background="#4273e2">
+        <Grid Height="284" VerticalAlignment="Top" Background="#3158b0">
+
+
+            <Image x:Name="image" HorizontalAlignment="Left" Height="284" VerticalAlignment="Top" Source="img/sslogo.jpg" Width="1914"/>
+        </Grid>
+        
+       
+        <Grid>
+            <Button Content="POSTURE" Click="ButtonClicked" Foreground="#4273e2" Height="150" HorizontalAlignment="Center" Margin="0,300,0,0" Name="button1" VerticalAlignment="Center" Width="600" Background="#FFFFFF" FontFamily="Montserrat" FontSize="50" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+            <Button Content="PUSHUP" Click="ButtonClickedPushup" Foreground="#4273e2" Height="150" HorizontalAlignment="Left" Margin="25,300,0,0" Name="button2" VerticalAlignment="Center" Width="600" Background="#FFFFFF" FontFamily="Montserrat" FontSize="50" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+            <Button Content="PLANK" Click="button2_Click" Foreground="#4273e2" Height="150" HorizontalAlignment="Right" Margin="0,300,25,0" Name="button3" VerticalAlignment="Center" Width="600" Background="#FFFFFF" FontFamily="Montserrat" FontSize="50" VerticalContentAlignment="Center" Padding="0,0,0,0"/>
+           
+        </Grid>
+    </Grid>
+</Window>
+    
+    
+   
