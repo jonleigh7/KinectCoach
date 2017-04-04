@@ -4,14 +4,14 @@ Kinetic Coach leverages machine learning to provide intelligent correctness scor
 
 
 
-+# Creators 
+# Creators 
 
 Kavi Mathur 
 Ian Hsiao 
 Jonathan Leigh 
 Anirudh Veeraragavan 
 
-+# Technologies / APIs used
+# Technologies / APIs used
 
 Kinect for Windows 2.0
 Azure Machine Learning Web Services 
